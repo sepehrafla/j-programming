@@ -1,0 +1,6 @@
+3 : 0
+( 'nballots votes')=.y
+wins=.nballots%2
+countA=.+/'A'=votes
+;('Tie';'B';'A'){~(1+wins<<vountA)*wins~:countA
+)
